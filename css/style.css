@@ -1,0 +1,65 @@
+.random-background {
+  transition: background-color 2.0s ease;
+}
+
+.random-color {
+  transition: color 2.0s ease;
+}
+
+.round-border {
+  border: 0;
+  border-radius: 5px;
+}
+
+#big-rectangle {
+  margin: auto;
+  margin-top: 150px;
+  background-color: #fff;
+  width: 450px;
+  height: auto;
+  padding: 40px 50px 30px 50px;
+}
+
+#new-quote {
+  font-weight: 700;
+  float: right;
+  font-size: 14px;
+  padding: 0 15px 0 15px;
+}
+
+button.round-border {
+  color: white;
+  height: 40px;
+}
+
+button.round-border:focus {
+  outline: 0 !important;
+}
+
+button.round-border:hover {
+  opacity: 0.85;
+}
+
+#quote {
+  margin-left: 2px;
+}
+
+.square-button {
+  width: 40px;
+  font-size: 20px;
+  margin-right: 1px;
+}
+
+.quote {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#author {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: right;
+}
