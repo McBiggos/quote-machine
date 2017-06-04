@@ -1,9 +1,5 @@
-.random-background {
-  transition: background-color 2.0s ease;
-}
-
-.random-color {
-  transition: color 2.0s ease;
+.random-background, .random-color {
+  transition: all 2.0s ease;
 }
 
 .round-border {
